@@ -62,4 +62,4 @@
 
 ## 基础项目
 
-使用 [NVIDIA SO-101 Workshop](https://github.com/isaac-sim/Sim-to-Real-SO-101-Workshop) 的工程环境和 [Hugging Face LeRobot](https://github.com/huggingface/lerobot) 的 ACT 实现。本文记录本项目实验，不宣称重现 [ACT 原论文](https://arxiv.org/abs/2304.13705) 的双臂任务成绩。
+使用 [NVIDIA SO-101 Workshop](https://github.com/isaac-sim/Sim-to-Real-SO-101-Workshop) 的工程环境和 [Hugging Face LeRobot](https://github.com/huggingface/lerobot) 的 ACT 实现。本文记录本项目实验
