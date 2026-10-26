@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-26",
+  "episodes": 5,
+  "frames": 2337,
+  "old_model": "dual-camera-50-demo-100k",
+  "new_model": "dual-camera-70-demo-weighted-finetune-30k",
+  "metrics": [
+    {
+      "metric": "first_action",
+      "label": "每帧重新预测首动作",
+      "old_mae": 2.6028926372528076,
+      "new_mae": 2.4578959941864014,
+      "reduction_percent": 5.570596381548847
+    },
+    {
+      "metric": "chunk_masked",
+      "label": "100步块（去除padding）",
+      "old_mae": 7.488932132720947,
+      "new_mae": 7.136908531188965,
+      "reduction_percent": 4.700584746841363
+    },
+    {
+      "metric": "queue100_shadow",
+      "label": "执行100步的离线影子",
+      "old_mae": 8.409006118774414,
+      "new_mae": 7.470058441162109,
+      "reduction_percent": 11.165976862782367
+    },
+    {
+      "metric": "hold_measured_state_baseline",
+      "label": "保持实测state参考",
+      "old_mae": 1.9872081279754639,
+      "new_mae": 1.9872081279754639,
+      "reduction_percent": 0.0
+    }
+  ],
+  "per_episode_first_action": [
+    {
+      "episode": 0,
+      "old_mae": 2.3248703479766846,
+      "new_mae": 2.3025357723236084,
+      "reduction_percent": 0.960680481494969
+    },
+    {
+      "episode": 1,
+      "old_mae": 2.2519404888153076,
+      "new_mae": 2.368004322052002,
+      "reduction_percent": -5.153947620425474
+    },
+    {
+      "episode": 2,
+      "old_mae": 3.507251262664795,
+      "new_mae": 3.014880657196045,
+      "reduction_percent": 14.038646466824531
+    },
+    {
+      "episode": 3,
+      "old_mae": 1.9488996267318726,
+      "new_mae": 1.8741769790649414,
+      "reduction_percent": 3.834094205879358
+    },
+    {
+      "episode": 4,
+      "old_mae": 3.0033905506134033,
+      "new_mae": 2.7637529373168945,
+      "reduction_percent": 7.978902818601662
+    }
+  ],
+  "units": "SO101 calibrated joint units, not degrees",
+  "inputs": "expert-trajectory front/wrist images and measured state; no expert action input",
+  "TE_evaluated": false,
+  "closed_loop_success_measured": false,
+  "identical_evaluator_and_validation_inputs": true,
+  "equivalent_processors": true
+}

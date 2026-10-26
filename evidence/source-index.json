@@ -1,0 +1,121 @@
+{
+  "scope": "Paths relative to the private local learning workspace; source files are not included.",
+  "sources": {
+    "action复现外部视角，标记版/outputs/act-baseline-v1-100k/validation-comparison/extended-160k/checkpoint-comparison.csv": {
+      "sha256": "264aeaaadc255f2eca9fdc918932d21d35ce59396b52676f1ff46effdc3f6384",
+      "bytes": 2050
+    },
+    "act-reproduction/evaluation/day5-20260923/hold-baseline-and-data-audit.json": {
+      "sha256": "bae3ed55680836d376825a408b2696a2a5d7b011e067fc9743e0dad51c2eea4f",
+      "bytes": 87390
+    },
+    "act-reproduction/evaluation/block-bag-v2-deployment-preflight-20261010/two-trial-comparison/comparison.json": {
+      "sha256": "7a8df0e5fa4ab3f8a989b178b4e2b2e81f250657cbdb6f1bd5421fd05c99ccb8",
+      "bytes": 5094
+    },
+    "act-reproduction/evaluation/block-bag-v2-deployment-preflight-20261010/te-trial/trial-20261010-125023-585839465/steps.jsonl": {
+      "sha256": "c5e741a4cd38e849378dd84ee65f04c9da95bad4d0e28aebb994f8eae6b8678c",
+      "bytes": 8575354
+    },
+    "act-reproduction/evaluation/block-bag-v2-deployment-preflight-20261010/te-trial/trial-20261010-125608-297883503/steps.jsonl": {
+      "sha256": "cdc08348e3af1382d34ebdb97220c4285f97dcc2f62855438a7e8311b1aa481d",
+      "bytes": 8520804
+    },
+    "act-reproduction/evaluation/dual-validation5-finetune30k-20261026/comparison.json": {
+      "sha256": "be0103aa35707825e44377c4a34f8fd82cb2c1b5da1a923e887f6504c698d8ec",
+      "bytes": 3148
+    },
+    "act-reproduction/evaluation/dual-live-five-20261026/session-20261026-140625/session.json": {
+      "sha256": "02a80a32f1a4159c4a0cce097bd815f5e397a3177dc840b6fb337c9beff10832",
+      "bytes": 11559
+    },
+    "act-reproduction/training/dual-block-bag-all50-20261025/formal100k-20261025-230639-87674/output/checkpoints/100000/pretrained_model/config.json": {
+      "sha256": "75cbbd8cb6a3abe6df440c1256fdaf0d5c5002f989b1a866a2fadaf4f7434876",
+      "bytes": 1669
+    },
+    "act-reproduction/evaluation/dual-te-trial-20261026/run-trial.sh": {
+      "sha256": "e0c3f2e644f052ef8adfb563371ab07882d35e37a50f652c66e702f1cab2adfe",
+      "bytes": 2660
+    },
+    "act-reproduction/evaluation/dual-te-trial-20261026/te_trial.py": {
+      "sha256": "10eccd5ef7a708f7deb4dcac4d90903da5589491376fdbfaac7703b3bbd667f3",
+      "bytes": 16533
+    },
+    "act-reproduction/training/dual-block-bag-all50-20261025/formal100k-20261025-230639-87674/output/checkpoints/100000/pretrained_model/model.safetensors": {
+      "sha256": "258d1cb808f46aeee6de83fb1dcba3cf2557001266d319aa61f752107e36b27e",
+      "bytes": 206699736
+    },
+    "act-reproduction/training/dual-block-bag-all50-20261025/formal100k-20261025-230639-87674/output/checkpoints/100000/pretrained_model/policy_postprocessor.json": {
+      "sha256": "648b415125a183dfd6cbc47c1dc04ab3f2d912654ef22a12ca5e8b93d7d85cdd",
+      "bytes": 660
+    },
+    "act-reproduction/training/dual-block-bag-all50-20261025/formal100k-20261025-230639-87674/output/checkpoints/100000/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors": {
+      "sha256": "920b2430b9fa747405cdb77f9232728d7238150866473570a6f2ad4b9ed60d2f",
+      "bytes": 7552
+    },
+    "act-reproduction/training/dual-block-bag-all50-20261025/formal100k-20261025-230639-87674/output/checkpoints/100000/pretrained_model/policy_preprocessor.json": {
+      "sha256": "8ccbca171fe05564cf6cc9691c22783d2a228743596ecd8be9df09e04d724fbc",
+      "bytes": 1328
+    },
+    "act-reproduction/training/dual-block-bag-all50-20261025/formal100k-20261025-230639-87674/output/checkpoints/100000/pretrained_model/policy_preprocessor_step_3_normalizer_processor.safetensors": {
+      "sha256": "920b2430b9fa747405cdb77f9232728d7238150866473570a6f2ad4b9ed60d2f",
+      "bytes": 7552
+    },
+    "act-reproduction/training/dual-block-bag-all50-20261025/formal100k-20261025-230639-87674/output/checkpoints/100000/pretrained_model/train_config.json": {
+      "sha256": "338e6cf1818cf63a9a105b245acf4ce084504b41198979ac12f7091d5c12dc91",
+      "bytes": 5501
+    },
+    "act-reproduction/evaluation/dual-te-trial-20261026/trial-20261026-140641-364140677/policy/steps.jsonl": {
+      "sha256": "b4c2fbbec6cda7df8143534bb66fc83cbe27252641869a2bee5b93843d2038e6",
+      "bytes": 20327885
+    },
+    "act-reproduction/evaluation/dual-te-trial-20261026/trial-20261026-140641-364140677/policy/trial.avi": {
+      "sha256": "5e3bb3be6a663d465014f49674f362af07e3d812b576fae878ddf4a59566a66b",
+      "bytes": 44507312
+    },
+    "act-reproduction/evaluation/dual-te-trial-20261026/trial-20261026-141633-711634479/policy/steps.jsonl": {
+      "sha256": "544db7ed2bb1a1a35470357fca39acba4e45131fe807a5809c233a826788234f",
+      "bytes": 20374414
+    },
+    "act-reproduction/evaluation/dual-te-trial-20261026/trial-20261026-141633-711634479/policy/trial.avi": {
+      "sha256": "8e0c7be8f53f8306a31313a9c09849cb64afce0ab411d0f5e99594fc49e9c4b6",
+      "bytes": 42938518
+    },
+    "act-reproduction/notes/2026-09-30-experiment-failure-audit.md": {
+      "sha256": "91f5a85cef2ff6454858481406ee539194d7d8d497ee16ddd60cbc55daa6bf31",
+      "bytes": 18704
+    },
+    "act-reproduction/notes/2026-09-23-last25-act-retrain.md": {
+      "sha256": "7c288d43cd2e636dbd68149c118c6c6690bbf20d80d0ff37372145db2e76f6c8",
+      "bytes": 6635
+    },
+    "act-reproduction/notes/2026-09-26-raw57-live-inference-contrast.md": {
+      "sha256": "bc273e16584256dc6d5cf4119df0b80cee075608243019cb841f080622337722",
+      "bytes": 15408
+    },
+    "action复现外部视角，标记版/outputs/act-current-scene-three-model-evaluation/model-comparison.md": {
+      "sha256": "5ef3cc3a62782a1afbd3a7f51435332cfe123081e4ef00c7a7d8c2a257b99e9f",
+      "bytes": 3377
+    },
+    "DATA EXPERIMENT/three-target-57/model-version-map-20260927.md": {
+      "sha256": "1edaace288c72d5b53308b077faf3d1064a36d0cbf45795201e385830f089e93",
+      "bytes": 6313
+    },
+    "action-reproduction-wrist/records/wrist-act-te-trial-2026-09-30.md": {
+      "sha256": "dc4265dfc71d1e94c2f0a88ed58e99a92d698631f5ff250d1966fe5b2671d663",
+      "bytes": 3865
+    },
+    "action-reproduction-wrist/records/wrist-act-stall-10-limit-2026-09-30.md": {
+      "sha256": "42f0642facbc615e6f24e70f45cd9c8af2f201e58676a58902f874b3e8e26859",
+      "bytes": 4308
+    },
+    "act-reproduction/notes/2026-10-10-act-block-bag-v2-all50-100k-completion.md": {
+      "sha256": "8b38726cd3a144c77194d2759d38f0db82904f566ded0842e12a9a766b6ba5f2",
+      "bytes": 2544
+    },
+    "act-reproduction/training/dual-block-bag-all50-20261025/formal100k-20261025-230639-87674/completion-report.md": {
+      "sha256": "e0ac4db58808f23b93f2f0188454ad15eba445b754a5c32b5be3093474f790b9",
+      "bytes": 1226
+    }
+  }
+}

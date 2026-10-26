@@ -1,0 +1,55 @@
+{
+  "environment": {
+    "python": "3.11.13",
+    "pytorch": "2.7.0+cu128",
+    "lerobot": "0.4.3",
+    "lerobot_revision": "e670ac5daf9b76cf5c18f632b89a8ff85c727ca6",
+    "image_id": "sha256:8d6b3d2b76e9a61c37008f2ea0323e7551cc4375d227a6157b4cd1a3df7a097c",
+    "GPU": "NVIDIA GeForce RTX 5060 Laptop, about 8 GiB"
+  },
+  "camera_mapping": {
+    "front": "SHUNCCM external camera",
+    "wrist": "icSpring wrist camera"
+  },
+  "camera_config": {
+    "width": 640,
+    "height": 480,
+    "fps_nominal": 30,
+    "input_mode": "MJPG",
+    "model_color": "RGB"
+  },
+  "training": {
+    "episodes": 50,
+    "frames": 24118,
+    "steps": 100000,
+    "batch_size": 4,
+    "precision": "FP32",
+    "seed": 1000,
+    "optimizer": "AdamW",
+    "lr": 1e-05,
+    "chunk_size": 100,
+    "n_action_steps": 100,
+    "TE": null,
+    "initialization": "new ACT parameters, ImageNet ResNet18 backbone",
+    "validation": "5 external episodes / 2337 frames, excluded from training and statistics"
+  },
+  "successful_deployment": {
+    "TE": 0.01,
+    "chunk": 100,
+    "n_action_steps": 1,
+    "seconds": 30,
+    "absolute_range": "none",
+    "relative_limit": null,
+    "alignment": false
+  },
+  "deployment_settings_are_historical_record_not_a_safe_motion_command": true,
+  "later_finetune": {
+    "episodes": 70,
+    "frames": 39468,
+    "additional_steps": 30000,
+    "old_frame_weight": 1,
+    "new_frame_weight": 2,
+    "normalization": "baseline processors retained",
+    "success_cases_belong_to_this_model": false
+  }
+}

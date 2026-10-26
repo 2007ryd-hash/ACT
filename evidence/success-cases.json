@@ -1,0 +1,180 @@
+{
+  "selection": "two explicitly labelled successful cases, not all attempts",
+  "model": "dual-camera-50-demo-100k",
+  "checkpoint_relative_to_workspace": "act-reproduction/training/dual-block-bag-all50-20261025/formal100k-20261025-230639-87674/output/checkpoints/100000/pretrained_model",
+  "checkpoint_file_sha256": {
+    "config.json": "75cbbd8cb6a3abe6df440c1256fdaf0d5c5002f989b1a866a2fadaf4f7434876",
+    "model.safetensors": "258d1cb808f46aeee6de83fb1dcba3cf2557001266d319aa61f752107e36b27e",
+    "policy_postprocessor.json": "648b415125a183dfd6cbc47c1dc04ab3f2d912654ef22a12ca5e8b93d7d85cdd",
+    "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "920b2430b9fa747405cdb77f9232728d7238150866473570a6f2ad4b9ed60d2f",
+    "policy_preprocessor.json": "8ccbca171fe05564cf6cc9691c22783d2a228743596ecd8be9df09e04d724fbc",
+    "policy_preprocessor_step_3_normalizer_processor.safetensors": "920b2430b9fa747405cdb77f9232728d7238150866473570a6f2ad4b9ed60d2f",
+    "train_config.json": "338e6cf1818cf63a9a105b245acf4ce084504b41198979ac12f7091d5c12dc91"
+  },
+  "deployment_settings": {
+    "TE": 0.01,
+    "chunk": 100,
+    "n_action_steps": 1,
+    "seconds": 30,
+    "absolute_range": "none",
+    "relative_limit": null,
+    "alignment": false
+  },
+  "joint_value_units": "calibrated RANGE_M100_100 body / RANGE_0_100 gripper",
+  "state_semantics": "measured before this action; not the achieved state after the current command",
+  "sender_return_action_semantics": "LeRobot sender return, not exact encoded target or actual achieved position",
+  "cases": [
+    {
+      "case_id": "success-01",
+      "trial_id": "trial-20261026-140641-364140677",
+      "date": "2026-10-26",
+      "timezone": "Asia/Shanghai",
+      "position_observer": "中",
+      "task": "pick up the blue block, place it inside the black bag, release and withdraw",
+      "task_outcome_observer": "success",
+      "intervention_observer": "no",
+      "completion_time_s_observer_estimate": 15.0,
+      "video_review": {
+        "release_interval_s": [
+          8.991,
+          9.252
+        ],
+        "release_frame_indices": [
+          242,
+          249
+        ],
+        "grasp_interval_s": [
+          4,
+          5.5
+        ],
+        "lift_transport_interval_s": [
+          5.5,
+          8
+        ],
+        "withdrawal_interval_s": [
+          10.5,
+          12
+        ],
+        "result_observed_at_s": [
+          15,
+          20
+        ],
+        "method": "manual visual review of sampled frames with denser release-window inspection; log clock",
+        "precision": "approximate intervals, not automatic event detection"
+      },
+      "csv": "data/success-01-first20s.csv",
+      "export_window_s": [
+        0,
+        20
+      ],
+      "exported_rows": 539,
+      "first_last_log_time_s": [
+        0.053568601999813836,
+        19.96835283700011
+      ],
+      "mean_record_interval_ms": 37.016327574349994,
+      "max_loop_ms_in_export": 48.0856499998481,
+      "extra_range_clip_count_in_export": 0,
+      "initial_measured_state": [
+        1.429094906559186,
+        -90.69182389937107,
+        99.45676776822091,
+        51.804123711340196,
+        16.581196581196593,
+        4.904632152588556
+      ],
+      "joint_order": [
+        "shoulder_pan",
+        "shoulder_lift",
+        "elbow_flex",
+        "wrist_flex",
+        "wrist_roll",
+        "gripper"
+      ],
+      "source_steps": "act-reproduction/evaluation/dual-te-trial-20261026/trial-20261026-140641-364140677/policy/steps.jsonl",
+      "source_video": "act-reproduction/evaluation/dual-te-trial-20261026/trial-20261026-140641-364140677/policy/trial.avi",
+      "source_steps_sha256": "b4c2fbbec6cda7df8143534bb66fc83cbe27252641869a2bee5b93843d2038e6",
+      "source_video_sha256": "5e3bb3be6a663d465014f49674f362af07e3d812b576fae878ddf4a59566a66b",
+      "video_frame_count": 791,
+      "video_header_fps": 30,
+      "frame_mapping": "video frame i corresponds to source JSONL row i; use time_seconds for wall-clock intervals",
+      "scope": "selected successful task segment; not the full-run lifecycle or a success-rate denominator"
+    },
+    {
+      "case_id": "success-05",
+      "trial_id": "trial-20261026-141633-711634479",
+      "date": "2026-10-26",
+      "timezone": "Asia/Shanghai",
+      "position_observer": "右边",
+      "task": "pick up the blue block, place it inside the black bag, release and withdraw",
+      "task_outcome_observer": "success",
+      "intervention_observer": "no",
+      "completion_time_s_observer_estimate": 15.0,
+      "video_review": {
+        "release_interval_s": [
+          8.748,
+          9.002
+        ],
+        "release_frame_indices": [
+          237,
+          244
+        ],
+        "grasp_interval_s": [
+          4,
+          5.3
+        ],
+        "lift_transport_interval_s": [
+          5.3,
+          8
+        ],
+        "withdrawal_interval_s": [
+          10.5,
+          12
+        ],
+        "result_observed_at_s": [
+          15,
+          20
+        ],
+        "method": "manual visual review of sampled frames with denser release-window inspection; log clock",
+        "precision": "approximate intervals, not automatic event detection"
+      },
+      "csv": "data/success-05-first20s.csv",
+      "export_window_s": [
+        0,
+        20
+      ],
+      "exported_rows": 545,
+      "first_last_log_time_s": [
+        0.0539623310000934,
+        19.99364507700011
+      ],
+      "mean_record_interval_ms": 36.653828577205914,
+      "max_loop_ms_in_export": 47.18275600043853,
+      "extra_range_clip_count_in_export": 0,
+      "initial_measured_state": [
+        18.43165994869915,
+        -84.73794549266248,
+        95.74468085106383,
+        69.0721649484536,
+        23.369963369963372,
+        14.645776566757492
+      ],
+      "joint_order": [
+        "shoulder_pan",
+        "shoulder_lift",
+        "elbow_flex",
+        "wrist_flex",
+        "wrist_roll",
+        "gripper"
+      ],
+      "source_steps": "act-reproduction/evaluation/dual-te-trial-20261026/trial-20261026-141633-711634479/policy/steps.jsonl",
+      "source_video": "act-reproduction/evaluation/dual-te-trial-20261026/trial-20261026-141633-711634479/policy/trial.avi",
+      "source_steps_sha256": "544db7ed2bb1a1a35470357fca39acba4e45131fe807a5809c233a826788234f",
+      "source_video_sha256": "8e0c7be8f53f8306a31313a9c09849cb64afce0ab411d0f5e99594fc49e9c4b6",
+      "video_frame_count": 791,
+      "video_header_fps": 30,
+      "frame_mapping": "video frame i corresponds to source JSONL row i; use time_seconds for wall-clock intervals",
+      "scope": "selected successful task segment; not the full-run lifecycle or a success-rate denominator"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Only curated publication files belong here.
+__pycache__/
+.venv/
+.env
+.env.*
+*.pem
+*.key
+auth.json
+calibration/
+recordings/
+datasets/
+checkpoints/
+outputs/
+*.safetensors
+*.pt
+*.pth
+*.parquet
+*.npz
+*.mp4
+*.avi
+*.rrd
+*.log

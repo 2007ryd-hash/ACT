@@ -1,0 +1,43 @@
+{
+  "frozen_validation": {
+    "episodes": 10,
+    "frames": 17433,
+    "metric": "episode-macro normalized L1",
+    "hold_reference": 0.06569023337250421
+  },
+  "single_camera_trials": [
+    {
+      "trial_id": "trial-20261010-125023-585839465",
+      "sent_actions": 1787,
+      "duration_s": 60.00441102900368,
+      "gripper": {
+        "TE_min": -0.7739467620849609,
+        "TE_max": 7.729207515716553,
+        "feedback_min": 0.2724795640326975,
+        "feedback_max": 7.425068119891008,
+        "raw_chunk_first_max": 5.766145706176758,
+        "raw_chunk_any_future_max": 19.719837188720703,
+        "TE_peak_time_s": 14.802504164996208,
+        "feedback_peak_time_s": 14.835498105006991
+      },
+      "outcome": "failed; no mechanical anomalies"
+    },
+    {
+      "trial_id": "trial-20261010-125608-297883503",
+      "sent_actions": 1787,
+      "duration_s": 60.00555114900635,
+      "gripper": {
+        "TE_min": -0.09050273895263672,
+        "TE_max": 20.623245239257812,
+        "feedback_min": 0.6811989100817438,
+        "feedback_max": 20.231607629427792,
+        "raw_chunk_first_max": 20.144262313842773,
+        "raw_chunk_any_future_max": 25.51638412475586,
+        "TE_peak_time_s": 36.0122071680089,
+        "feedback_peak_time_s": 36.14364018400374
+      },
+      "outcome": "failed; no mechanical anomalies"
+    }
+  ],
+  "not_a_pooled_success_rate": true
+}
